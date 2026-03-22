@@ -2,54 +2,30 @@
 Fake job postings are increasing day by day, leading to scams and fraud.
 This project aims to detect whether a job posting is real or fake using Machine Learning.
 
+The goal is simple: take job-related information and predict if it is genuine or fraudulent.
 
-🎯 Objective
-To build a classification model that predicts:
-✅ Real Job
-❌ Fake Job
+🔍 How it works
 
-📊 Dataset
-Contains job descriptions, company details, requirements, etc.
-Includes labeled data (real vs fake)
-🛠️ Technologies Used
-Python 🐍
-Pandas
-NumPy
-Scikit-learn
-Streamlit (for web app)
-🔄 Project Workflow
-1. Data Preprocessing
-Handling missing values
-Removing unnecessary columns
-Text cleaning
-2. Feature Engineering
-Converted text data into numerical format using:
-TF-IDF Vectorizer
-3. Model Building
-Used classification algorithms like:
-Logistic Regression
-Naive Bayes
-4. Model Evaluation
-Accuracy
-Precision
-Recall
-F1-score
-📈 Results
-Achieved good accuracy in detecting fake job postings
-Model can generalize well to new data
-💻 Streamlit App
-User inputs job description
-Model predicts whether job is:
-Real or Fake
-▶️ How to Run the Project
-git clone https://github.com/your-username/fake-job-prediction.git
-cd fake-job-prediction
-pip install -r requirements.txt
-streamlit run app.py
-📌 Future Improvements
-Improve accuracy using advanced models
-Deploy using cloud (AWS / Render)
-Add more real-time datasets
-🙌 Conclusion
+The project follows a basic machine learning pipeline:
 
-This project helps in identifying fraudulent job postings and can be useful for job seekers to avoid scams.
+  Cleaned the dataset by handling missing values
+  Processed text data (job descriptions, requirements)
+  Converted text into numbers using TF-IDF
+  Trained models like Logistic Regression and Naive Bayes
+  Evaluated performance using accuracy, precision, recall
+📊 Why this matters
+
+Detecting fake jobs is important because:
+
+  It helps users avoid scams
+  Improves trust in job platforms
+  Saves time and effort for job seekers
+💻 Application
+
+  I built a simple Streamlit app where:
+  
+  User enters job details
+  Model predicts → Real or Fake
+🚀 Result
+  
+  The model performs well in identifying fake job postings and can be used as a basic tool for filtering suspicious listings.
