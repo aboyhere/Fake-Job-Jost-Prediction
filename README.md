@@ -18,15 +18,15 @@ The project follows a basic machine learning pipeline:
 
 Detecting fake jobs is important because:
 
-  It helps users avoid scams
-  Improves trust in job platforms
-  Saves time and effort for job seekers
-💻 Application
+ * It helps users avoid scams
+ * Improves trust in job platforms
+ * Saves time and effort for job seekers
+### 💻 Application
 
   I built a simple Streamlit app where:
   
-  User enters job details
-  Model predicts → Real or Fake
-🚀 Result
+ * User enters job details
+ * Model predicts → Real or Fake
+### 🚀 Result
   
-  The model performs well in identifying fake job postings and can be used as a basic tool for filtering suspicious listings.
+ * The model performs well in identifying fake job postings and can be used as a basic tool for filtering suspicious listings.
