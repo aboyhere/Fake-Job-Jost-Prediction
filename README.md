@@ -1,2 +1,5 @@
 # Fake Job Prediction using Machine Learning
-Using this application you can be able to predict whether it is Real or Fake job post
+Fake job postings are increasing day by day, leading to scams and fraud.
+This project aims to detect whether a job posting is real or fake using Machine Learning.
+
+
