@@ -4,16 +4,17 @@ This project aims to detect whether a job posting is real or fake using Machine 
 
 The goal is simple: take job-related information and predict if it is genuine or fraudulent.
 
-🔍 How it works
+### 🔍 How it works
 
 The project follows a basic machine learning pipeline:
 
-  Cleaned the dataset by handling missing values
-  Processed text data (job descriptions, requirements)
-  Converted text into numbers using TF-IDF
-  Trained models like Logistic Regression and Naive Bayes
-  Evaluated performance using accuracy, precision, recall
-📊 Why this matters
+ * Cleaned the dataset by handling missing values
+ * Processed text data (job descriptions, requirements)
+ * Converted text into numbers using TF-IDF
+ * Trained models like Logistic Regression and Naive Bayes
+ * Evaluated performance using accuracy, precision, recall
+  
+ ### 📊 Why this matters
 
 Detecting fake jobs is important because:
 
