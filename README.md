@@ -30,3 +30,9 @@ Detecting fake jobs is important because:
 ### 🚀 Result
   
  * The model performs well in identifying fake job postings and can be used as a basic tool for filtering suspicious listings.
+
+### Information should be entered
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/12c1afc8-85d6-4b4a-a485-58c16e8505f2" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6979b685-b336-4db3-b589-a9fe7ad6266b" />
